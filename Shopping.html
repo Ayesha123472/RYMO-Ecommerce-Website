@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Project</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+  <div class="container">
+    <img src="logo1.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link " href="shop.html">Shop</a>
+        </li>
+
+                <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+
+                <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+                <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        
+
+<li class="nav-item">
+    <a class="nav-link" href="#" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#" aria-label="Shopping bag">
+        <i class="fa-solid fa-bag-shopping"></i>
+    </a>
+</li>
+
+
+</ul>
+    </div>
+  </div>
+  </nav>
+    <section id="blog-home" class="pt-5 mt-5 container">
+    <h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+    <hr>
+  </section>
+  <section id="cart-container" class="container my-5">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="sh1.jpg" alt=""></td>
+                <td><h5>Handbag Fringilla</h5></td>
+                <td><h5>$65</h5></td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+
+            </tr>
+                        <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="sh2.jpg" alt=""></td>
+                <td><h5>Handbag Fringilla</h5></td>
+                <td><h5>$65</h5></td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="sh3.jpg" alt=""></td>
+                <td><h5>Handbag Fringilla</h5></td>
+                <td><h5>$65</h5></td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+  </section>
+
+<section id="cart-bottom" class="container">
+    <div class="row">
+
+        <!-- Coupon Section -->
+        <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+            <div>
+                <h5>COUPON</h5>
+                <p>Enter your coupon code if you have one.</p>
+                <input type="text" placeholder="Coupon Code">
+                <button>APPLY COUPON</button>
+            </div>
+        </div>
+
+        <!-- Cart Total Section -->
+        <div class="total col-lg-6 col-md-6 col-12">
+            <div>
+                <h5>CART TOTAL</h5>
+
+                <div class="d-flex justify-content-between">
+                    <h6>Subtotal</h6>
+                    <p>$215.00</p>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <h6>Shipping</h6>
+                    <p>$215.00</p>
+                </div>
+
+                <hr class="second-hr">
+
+                <div class="d-flex justify-content-between">
+                    <h6>Total</h6>
+                    <p>$215.00</p>
+                </div>
+
+                <button>PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer-section">
+    <div class="container-fluid px-5">
+        <div class="row">
+
+            <!-- Column 1: About -->
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <img src="logo2.png" alt="Rymo Logo" class="footer-logo">
+                <p class="pt-3">
+                    Rymo is a fictional eCommerce powered by
+                    HTML, Scss and JavaScript. To check the
+                    complete source code click here.
+                </p>
+            </div>
+
+            <!-- Column 2: Featured -->
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Boys</a></li>
+                    <li><a href="#">Girls</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Clothes</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact -->
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+
+                <h6>ADDRESS</h6>
+                <p>123 Street Name, City, US</p>
+
+                <h6>PHONE</h6>
+                <p>(123) 456-7890</p>
+
+                <h6>EMAIL</h6>
+                <p>rymo@mail.com</p>
+            </div>
+
+            <!-- Column 4: Instagram -->
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                    <img class="img-fluid w-25 h-100 m-2" src="i1.jpg" alt="">
+                     <img class="img-fluid w-25 h-100 m-2" src="i2.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="i3.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="i4.jpg" alt="">
+                   <img class="img-fluid w-25 h-100 m-2" src="i5.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="copyright mt-5">
+    <div class="row container mx-auto mb-4 ">
+
+        <!-- Payment Images -->
+        <div class="col-lg-3 col-md-4 col-12 ">
+            <img src="payment.png" alt="Payment methods">
+        </div>
+
+        <!-- Copyright Text -->
+        <div class="col-lg-5 col-md-4 col-12  text-nowrap">
+            <p class="copyright-text">
+                rymo eCommerce © 2022. All Rights Reserved
+            </p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="col-lg-4 col-md-4 col-12 ">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </div>
+</div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
